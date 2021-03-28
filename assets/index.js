@@ -30,7 +30,7 @@ const questions = () => {
     {
         type: 'input',
         message: 'What are the contribution guidelines for this project?',
-        name: 'guidelines',
+        name: 'contributing',
     },
     {
         type: 'input',
@@ -67,8 +67,18 @@ const writeFileSync = util.promisify(fs.writeFile);
 const generateReadMe = (answers) => 
 `# ${answers.title}
 <br>
+## ${answers.description}
 <br>
-
+## ${answers.installation}
+<br>
+## ${answers.usage}
+<br> 
+## ${answers.contributing}
+<br>
+## ${answers.test}
+<br>
+## ${answers.github}
+## ${answers.email}
 `
 
 // TODO: Create a function to initialize app

@@ -1,24 +1,14 @@
 # Chris Goslin
 <br>
+## A project to help build a ReadME
 <br>
-
-- [Description](#Description)
-- [Installation Instructions](#Installation-Instructions)
-- [Usage](#Usage)
-- [Contributing](#Contributing)
-- [Tests](#Tests)
-- [Questions](#Questions)
-## Description
-
-## Installation Instructions
-
-## Usage
-
-## Contributing
-
-## Tests
-
-## Questions
-
-
-
+## use the json package
+<br>
+## to build a readme
+<br> 
+## dont add
+<br>
+## test at will
+<br>
+## cgoslin
+## cgoslin
