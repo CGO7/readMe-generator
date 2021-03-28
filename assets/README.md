@@ -4,7 +4,10 @@
 
 - [Description](#Description)
 - [Installation Instructions](#Installation-Instructions)
-
+- [Usage](#Usage)
+- [Contributing](#Contributing)
+- [Tests](#Tests)
+- [Questions](#Questions)
 ## Description
 
 ## Installation Instructions
