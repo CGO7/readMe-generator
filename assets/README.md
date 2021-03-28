@@ -1,14 +1,33 @@
 # Chris Goslin
+- [Description](#Description)
+- [Installation Instructions](#Installation-Instructions)
+- [Usage](#Usage)
+- [Contributing](#Contributing)
+- [Tests](#Tests)
+- [Questions](#Questions)
 <br>
-## A project to help build a ReadME
+
+## Description
+ lorem
 <br>
-## use the json package
+
+## Installation
+ asdfhasdfdsahkjfhdsaifhiu lidsufhyaiudsfhliudsa faiufdh asfd
 <br>
-## to build a readme
-<br> 
-## dont add
+
+## Usage
+ f;iuadshfiuahds fpasfas dfiudahfiusad yfaiuspdyfoiuaydshfa
 <br>
-## test at will
+
+## Contributing
+ dliufyaspoiufiashyf pasasdiuf hapiusyfas
 <br>
-## cgoslin
-## cgoslin
+
+## Tests
+ as dfiusadhf
+<br>
+
+## Github Profile
+ aisudfy aisdf
+## Email- For Questions about this Project, please email
+ alisufhoisadf

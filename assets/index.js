@@ -2,6 +2,7 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 const util = require('util');
+const markdown = require("markdown-js");
 
 
 // TODO: Create an array of questions for user input
@@ -66,19 +67,38 @@ const writeFileSync = util.promisify(fs.writeFile);
 
 const generateReadMe = (answers) => 
 `# ${answers.title}
+- [Description](#Description)
+- [Installation Instructions](#Installation-Instructions)
+- [Usage](#Usage)
+- [Contributing](#Contributing)
+- [Tests](#Tests)
+- [Questions](#Questions)
 <br>
-## ${answers.description}
+
+## Description
+ ${answers.description}
 <br>
-## ${answers.installation}
+
+## Installation
+ ${answers.installation}
 <br>
-## ${answers.usage}
-<br> 
-## ${answers.contributing}
+
+## Usage
+ ${answers.usage}
 <br>
-## ${answers.test}
+
+## Contributing
+ ${answers.contributing}
 <br>
-## ${answers.github}
-## ${answers.email}
+
+## Tests
+ ${answers.test}
+<br>
+
+## Github Profile
+ ${answers.github}
+## Email- For Questions about this Project, please email
+ ${answers.email}
 `
 
 // TODO: Create a function to initialize app
