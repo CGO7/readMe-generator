@@ -1,8 +1,8 @@
 // TODO: Include packages needed for this application
-
+const inquirer = require('inquirer');
 // TODO: Create an array of questions for user input
 const questions = [];
-const inquirer = require('inquirer');
+
 
 inquirer
   .prompt([
@@ -35,7 +35,23 @@ inquirer
         type: 'input',
         message: 'What are the test instructions for this project?',
         name: 'test',
+    }, 
+    {
+        type: 'list',
+        message: 'What license was used for this project?',
+        name: 'contact',
+        choices: ['Apache 2.0', 'GNU v3.0','MIT','Boost Software 1.0','Creative Commons Zero v1.0 Universal','Eclipse Public 2.0','Mozilla Public 2.0', 'GNU', 'BSD'],
+      }, 
+      {
+        type: 'input',
+        message: 'What is your github username?',
+        name: 'github',
     },  
+    {
+        type: 'input',
+        message: 'What is your email address?',
+        name: 'email',
+    },
   ])
   .then((response) =>
     response.confirm === response.password
@@ -43,19 +59,11 @@ inquirer
       : console.log('You forgot your password already?!')
   );
 
-//   need to find a way to use JSON to parse answers
-
-//   const fs = require('fs');
-
-// fs.appendFile('log.txt', response, (err) =>
-// err ? console.error(err) : console.log('Commit logged!')
-// );
-
 // TODO: Create a function to write README file
-// function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {}
 
 // TODO: Create a function to initialize app
-// function init() {}
+function init() {}
 
 // Function call to initialize app
-// init();
+init();
