@@ -56,11 +56,6 @@ const questions = () => {
     },
   ]);
 };  
-//   .then((response) =>
-    // response.confirm === response.password
-    //   ? console.log('Success!')
-    //   : console.log('You forgot your password already?!')
-//   );
 
 // TODO: Create a function to write README file
 const writeFileSync = util.promisify(fs.writeFile);
@@ -95,9 +90,9 @@ const generateReadMe = (answers) =>
  ${answers.test}
 <br>
 
-## Github Profile
-[GitHub](http://github.com/${answers.github}) 
-## For questions about this project, please email to:
+## Questions
+[${answers.github}](http://github.com/${answers.github}) 
+### For questions about this project, please email:
  ${answers.email}
 `
 
