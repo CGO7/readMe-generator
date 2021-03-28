@@ -96,8 +96,8 @@ const generateReadMe = (answers) =>
 <br>
 
 ## Github Profile
- ${answers.github}
-## Email- For Questions about this Project, please email
+[GitHub](http://github.com/${answers.github}) 
+## For questions about this project, please email to:
  ${answers.email}
 `
 
