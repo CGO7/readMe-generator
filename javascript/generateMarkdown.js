@@ -18,3 +18,9 @@ function generateMarkdown(data) {
 }
 
 module.exports = generateMarkdown;
+
+const license = new Map([['Apache 2.0', 1], ['GNU v3.0', 2], ['MIT', 3], ['Boost Software 1.0', 4], ['Creative Commons Zero v1.0 Univerasl', 5], ['Eclipse Public 2.0', 6], ['Mozilla Public 2.0', 7], ['GNU', 8], ['BSD', 9], ['None', 10]]);
+
+for (const [data, title] of license) {
+  console.log(`${data}, ${title}`);
+} 

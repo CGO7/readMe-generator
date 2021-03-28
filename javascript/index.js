@@ -41,8 +41,8 @@ const questions = () => {
     {
         type: 'list',
         message: 'What license was used for this project?',
-        name: 'contact',
-        choices: ['Apache 2.0', 'GNU v3.0','MIT','Boost Software 1.0','Creative Commons Zero v1.0 Universal','Eclipse Public 2.0','Mozilla Public 2.0', 'GNU', 'BSD'],
+        name: 'license',
+        choices: ['Apache 2.0', 'GNU v3.0','MIT','Boost Software 1.0','Creative Commons Zero v1.0 Universal','Eclipse Public 2.0','Mozilla Public 2.0', 'GNU', 'BSD','None'],
       }, 
       {
         type: 'input',
@@ -94,6 +94,10 @@ const generateReadMe = (answers) =>
 [${answers.github}](http://github.com/${answers.github}) 
 ### For questions about this project, please email:
  ${answers.email}
+ <br>
+
+### License
+ ${answers.license}
 `
 
 // TODO: Create a function to initialize app
