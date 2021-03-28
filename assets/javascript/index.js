@@ -60,8 +60,8 @@ const questions = () => {
 // TODO: Create a function to write README file
 const writeFileSync = util.promisify(fs.writeFile);
 
-const generateReadMe = (answers) => 
-`# ${answers.title}
+const generateReadMe = (answers) =>                                                        
+`# ${answers.title}                                                             ![Apache](/assets/images/applicationCache.png)                                                                 
 - [Description](#Description)
 - [Installation Instructions](#Installation-Instructions)
 - [Usage](#Usage)
