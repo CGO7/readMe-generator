@@ -62,7 +62,7 @@ const writeFileSync = util.promisify(fs.writeFile);
 
 const generateReadMe = (answers) =>                                                        
 `# ${answers.title}
-<div align="right">![Apache](./assets/images/apache.png)                                                                 
+<div align="right">![Apache](./assets/images/apache.png)</div>                                                                 
 - [Description](#Description)
 - [Installation Instructions](#Installation-Instructions)
 - [Usage](#Usage)
