@@ -1,5 +1,6 @@
 # chris
-<div align="right">![Apache](./assets/images/apache.png)</div>                                                                 
+<div align="right">![Apache](./assets/images/apache.png)</div>  
+<br>                                                               
 - [Description](#Description)
 - [Installation Instructions](#Installation-Instructions)
 - [Usage](#Usage)
