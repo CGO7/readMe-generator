@@ -1,20 +1,39 @@
-# ReadMe-generator                    
-A command line application to help build a ReadMe page
+# Example readME
+<br>
+                                                                
+- [Description](#Description)
+- [Installation Instructions](#Installation-Instructions)
+- [Usage](#Usage)
+- [Contributing](#Contributing)
+- [Tests](#Tests)
+- [Questions](#Questions)
+<br>
 
 ## Description
-A console line application, for users to generate a ReadMe file. The readme will contain a table of contents, which will include multiple sections.  Description, Installation Instructions, Usage, Contributin Guidelines, Test Instructions, Questions.  
-[Video Demo](https://drive.google.com/file/d/14ififvLZO_MvY228KBpbrE81qSFy-DK2/view)
+ This is an example of a readMe made in console.
+<br>
+
+## Installation
+ Download the inquirer package to run application
+<br>
 
 ## Usage
-A simple way to generate a readme file from the console line, using node index
+ to generate a readMe for your project
+<br>
 
-## Contributing Guidelines
-For any ideas for contributions to this application, please email CGOSLIN7@GMAIL.COM
+## Contributing
+ Please email Cgoslin7@gmail.com
+<br>
 
 ## Tests
-To test this application, install node and use the command line, while in the file.  Type 'node index' in the console line, and follow prompts.
+ Go to javascript file, and run node index
+<br>
 
 ## Questions
-[Github Profile](http://github.com/CGO7)
-#### For questions or comments please email:
-CGOSLIN7@GMAIL.COM
+[CGO7](http://github.com/CGO7) 
+### For questions about this project, please email:
+ cgoslin7@gmail.com
+ <br>
+
+### License
+ Apache 2.0
