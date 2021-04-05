@@ -1,15 +1,24 @@
-  
 {
-    "name": "static-site",
-    "version": "1.0.0",
-    "description": "",
-    "main": "index.js",
-    "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "author": "Chris Goslin",
-    "license": "ISC",
-    "dependencies": {
-      "inquirer": "^6.5.2"
-    }
-  }
+  "name": "static-site",
+  "version": "1.0.0",
+  "description": "<br>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Chris Goslin",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^6.5.2"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CGO7/readMe-generator.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/CGO7/readMe-generator/issues"
+  },
+  "homepage": "https://github.com/CGO7/readMe-generator#readme"
+}
